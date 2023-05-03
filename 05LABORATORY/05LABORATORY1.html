@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Anita Magsaysay-Ho Artworks</title>
+	<style>
+	
+		.grid {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-template-rows: repeat(2, auto);
+			gap: 2px;
+		}
+
+		
+		.grid img {
+			max-width: 100%;
+			height: auto;
+			display: block;
+			margin: 0 auto;
+			border: 5px solid #f6c90e;
+			box-shadow: 0 0 20px #f6c90e;
+			transition: transform 0.3s ease-in-out;
+		}
+
+		.grid img:hover {
+			transform: scale(1.05);
+		}
+
+		
+		.artwork-title {
+			text-align: center;
+			font-size: 36px;
+			font-weight: bold;
+			margin: 20px 0;
+			color: #f6c90e;
+			text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+		}
+
+	
+		.introduction {
+			text-align: center;
+			font-size: 25px;
+			margin: 10px 0;
+			color: #333;
+			line-height: 1.5;
+			max-width: 800px;
+			margin: 0 auto;
+		}
+
+		/* Style the video */
+		video {
+			display: block;
+			margin: 20px auto;
+			max-width: 100%;
+			box-shadow: 0 0 20px #f6c90e;
+		}
+	</style>
+</head>
+<body>
+	<div class="grid"><div class="item1">
+			<img src="4.jpg" alt="Women With baskets">
+		</div><div class="item2">
+			<img src="3.jpg" alt="Women With baskets">
+		</div><div class="item3">
+			<img src="1.jpg" alt="Women With baskets">
+		</div><div class="item4">
+			<img src="6.jpg" alt="Women With baskets">
+		</div><div class="item5">
+			<img src="2.jpg" alt="Women With baskets">
+		</div><div class="item6">
+		<img src="5.jpg" alt="Women With baskets">
+		</div>
+	</div>
+	<div class="artwork-Tittle">Women With Baskets</div>
+	<div class="introduction">Anita Magsaysay-Ho was a Filipino artist who is widely regarded as one of the country's most important painters of the 20th century. Her works often depicted Filipino women and rural life, and were characterized by their vibrant colors and dynamic compositions. Women With Baskets is one of her most iconic works, and showcases her mastery of capturing the energy and spirit of her subjects.
+	</div><video src="Anita.mp4" controls></video>
+</body>
+</html>
